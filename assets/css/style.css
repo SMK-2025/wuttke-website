@@ -2902,3 +2902,25 @@ html.a11y-links-underline a {
     font-size: 0.78rem;
   }
 }
+
+/* nav-link als Button (für Öffnungszeiten-Menüpunkt ohne href) */
+.nav-link--btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: inherit;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.nav-link--btn::after {
+  content: '▾';
+  font-size: 0.7em;
+  opacity: 0.7;
+}
