@@ -448,9 +448,13 @@ h4 { font-size: 1.2rem; font-weight: 700; }
 
 /* ---- Dropdown Submenü ---- */
 .nav-dropdown {
-  display: none;
+  /* Sichtbarkeit per opacity/visibility statt display:none
+     damit transition und pointer-events korrekt funktionieren */
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
   position: absolute;
-  top: calc(100% + 4px);
+  top: 100%;          /* direkt am Menüpunkt – kein Gap */
   left: 0;
   min-width: 200px;
   background: var(--color-forest-dark);
@@ -461,12 +465,26 @@ h4 { font-size: 1.2rem; font-weight: 700; }
   z-index: 2000;
   padding: 0.4rem 0;
   list-style: none;
+  /* Einblenden sofort, Ausblenden mit 200ms Delay */
+  transition: opacity 0.18s ease, visibility 0s linear 0.18s;
 }
-
+/* Unsichtbare Brücke zwischen Menüpunkt und Dropdown –
+   verhindert, dass der Mauszeiger beim Überfahren das Menü schließt */
+.nav-item--has-dropdown::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 12px;   /* überbrückt den Spalt */
+  background: transparent;
+}
 .nav-item--has-dropdown:hover .nav-dropdown,
 .nav-item--has-dropdown:focus-within .nav-dropdown {
-  display: block;
-  animation: dropdownFade 0.2s ease;
+  visibility: visible;
+  opacity: 1;
+  pointer-events: all;
+  transition: opacity 0.18s ease, visibility 0s linear 0s;
 }
 
 @keyframes dropdownFade {
@@ -1575,9 +1593,13 @@ h4 { font-size: 1.2rem; font-weight: 700; }
     transform: rotate(180deg);
   }
 
-  .nav-dropdown {
+    .nav-dropdown {
     position: static;
     display: none;
+    visibility: visible;  /* Mobile: visibility-Override damit display:none greift */
+    opacity: 1;
+    pointer-events: all;
+    transition: none;
     border: none;
     border-top: 1px solid rgba(200,169,81,0.1);
     border-radius: 0;
@@ -1586,7 +1608,6 @@ h4 { font-size: 1.2rem; font-weight: 700; }
     padding: 0;
     animation: none;
   }
-
   .nav-item--has-dropdown.open .nav-dropdown {
     display: block;
   }
