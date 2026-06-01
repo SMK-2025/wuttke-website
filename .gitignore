@@ -1,0 +1,22 @@
+# Python
+*.py
+__pycache__/
+*.pyc
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporäre Dateien
+*.tmp
+*.bak
