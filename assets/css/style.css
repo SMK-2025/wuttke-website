@@ -1141,7 +1141,7 @@ h4 { font-size: 1.2rem; font-weight: 700; }
 }
 
 .hours-row .closed {
-  color: var(--color-rust);
+  color: rgba(255,255,255,0.85);
   font-weight: 700;
 }
 
