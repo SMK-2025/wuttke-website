@@ -2796,3 +2796,109 @@ html.a11y-links-underline a {
   .tandem-modal__actions { flex-direction: column; align-items: stretch; }
   .tandem-modal__skip { text-align: center; }
 }
+
+
+/* ============================================================
+   ÖFFNUNGSZEITEN-DROPDOWN IN DER NAVIGATION
+   ============================================================ */
+
+/* Breites Dropdown für Öffnungszeiten */
+.nav-dropdown--hours {
+  min-width: 280px;
+  padding: 0.5rem 0;
+}
+
+.nav-dropdown--hours li a {
+  padding: 0.6rem 1.25rem;
+  display: block;
+  color: #FFFFFF;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.nav-dropdown--hours li a:hover {
+  background: rgba(255,255,255,0.15);
+  color: var(--color-gold);
+}
+
+/* Panel mit den Öffnungszeiten – kein Link, nur Anzeige */
+.nav-hours-panel {
+  padding: 0.75rem 1.25rem 1rem;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  cursor: default;
+}
+
+.nav-hours {
+  background: rgba(0,0,0,0.25);
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+}
+
+.nav-hours__title {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-gold);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.6rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid rgba(212,175,55,0.4);
+}
+
+.nav-hours__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 0;
+  gap: 1rem;
+}
+
+.nav-hours__row--season {
+  margin-top: 0.4rem;
+  padding-top: 0.4rem;
+  border-top: 1px solid rgba(255,255,255,0.15);
+}
+
+.nav-hours__day {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.85);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.nav-hours__time {
+  font-size: 0.82rem;
+  color: #FFFFFF;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.nav-hours__closed {
+  font-size: 0.82rem;
+  color: rgba(255,180,180,0.9);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Mobile: Öffnungszeiten-Panel im Akkordeon */
+@media (max-width: 900px) {
+  .nav-hours-panel {
+    padding: 0.5rem 1rem 0.75rem;
+  }
+
+  .nav-hours {
+    padding: 0.6rem 0.75rem;
+  }
+
+  .nav-hours__title {
+    font-size: 0.8rem;
+  }
+
+  .nav-hours__day,
+  .nav-hours__time,
+  .nav-hours__closed {
+    font-size: 0.78rem;
+  }
+}
