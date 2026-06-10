@@ -1,21 +1,22 @@
 <!DOCTYPE html>
+
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Wuttke in der Heide – Das Ausflugslokal in Ihrer Nähe. Biergarten, Minigolf, Grillplätze, Planwagenfahrten und mehr in Marl.">
-  <meta name="keywords" content="Wuttke, Heide, Marl, Biergarten, Minigolf, Grillplätze, Ausflug, Freizeitanlage">
-  <meta name="author" content="Wuttke in der Heide">
-  <meta name="robots" content="index, follow">
-  <meta property="og:title" content="Wuttke in der Heide – Das Ausflugslokal">
-  <meta property="og:description" content="Seit über 50 Jahren der Treff für Naturliebhaber, Familien und alle, die das einfache Leben lieben.">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="de_DE">
-  <title>Wuttke in der Heide – Startseite</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
-  <!-- Strukturierte Daten (Schema.org) für lokales Unternehmen -->
-  <script type="application/ld+json">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Wuttke in der Heide – Das Ausflugslokal in Ihrer Nähe. Biergarten, Minigolf, Grillplätze, Planwagenfahrten und mehr in Marl." name="description"/>
+<meta content="Wuttke, Heide, Marl, Biergarten, Minigolf, Grillplätze, Ausflug, Freizeitanlage" name="keywords"/>
+<meta content="Wuttke in der Heide" name="author"/>
+<meta content="index, follow" name="robots"/>
+<meta content="Wuttke in der Heide – Das Ausflugslokal" property="og:title"/>
+<meta content="Seit über 50 Jahren der Treff für Naturliebhaber, Familien und alle, die das einfache Leben lieben." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="de_DE" property="og:locale"/>
+<title>Wuttke in der Heide – Startseite</title>
+<link href="assets/css/style.css" rel="stylesheet"/>
+<link href="assets/images/favicon.ico" rel="icon" type="image/x-icon"/>
+<!-- Strukturierte Daten (Schema.org) für lokales Unternehmen -->
+<script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "FoodEstablishment",
@@ -38,242 +39,514 @@
   </script>
 </head>
 <body>
-  <!-- Skip-Link für Tastaturnutzer (WCAG 2.4.1) -->
-  <a href="#main-content" class="skip-link">Zum Hauptinhalt springen</a>
-
-  <!-- ========== HEADER ========== -->
-  <header class="site-header" role="banner">
-    <div class="header-inner">
-      <a href="index.html" class="site-logo" aria-label="Wuttke in der Heide – Startseite">
-        <img src="assets/images/wuttke-logo.png"
-             alt="Wuttke in der Heide Logo"
-             class="site-logo__img"
-             width="56" height="56">
-      </a>
-
-      <nav class="site-nav" role="navigation" aria-label="Hauptnavigation">
-        <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">
-          <span></span><span></span><span></span>
-        </button>
-        <ul class="nav-list" role="list">
-
-          <li class="nav-item">
-            <a href="index.html" class="nav-link active">Start</a>
-          </li>
-
-          <li class="nav-item">
-            <a href="pages/neuigkeiten.html" class="nav-link">Neuigkeiten</a>
-          </li>
-
-          <li class="nav-item nav-item--has-dropdown">
-            <a href="pages/biergarten.html" class="nav-link">Gastronomie</a>
-            <ul class="nav-dropdown">
-              <li><a href="pages/biergarten.html">🍺 Biergarten</a></li>
-              <li><a href="pages/speisen.html">🍽️ Speisekarte</a></li>
-              <li><a href="pages/firmenveranstaltung.html">🏢 Firmenveranstaltung</a></li>
-            </ul>
-          </li>
-
-          <li class="nav-item nav-item--has-dropdown">
-            <a href="pages/grillplaetze.html" class="nav-link">Freizeit</a>
-            <ul class="nav-dropdown">
-              <li><a href="pages/grillplaetze.html">🔥 Grillplätze</a></li>
-              <li><a href="pages/minigolf.html">⛳ Minigolf</a></li>
-              <li><a href="pages/pit-pat.html">🎯 Pit Pat</a></li>
-              <li><a href="pages/planwagen-fahrten.html">🐎 Planwagenfahrten</a></li>
-              <li><a href="pages/feuerstelle.html">🪵 Feuerschale</a></li>
-              <li><a href="pages/tandem.html" style="color:var(--color-gold);font-weight:700;">🚲 Tandem-Tretfahrzeug ✨</a></li>
-            </ul>
-          </li>
-
-          <li class="nav-item nav-item--has-dropdown">
-            <a href="pages/ueber-uns.html" class="nav-link">Über uns</a>
-            <ul class="nav-dropdown">
-              <li><a href="pages/ueber-uns.html">🌿 Unsere Geschichte</a></li>
-              <li><a href="pages/presse.html">📰 Presse-Chronik</a></li>
-              <li><a href="pages/sonstiges.html">📋 Sonstiges</a></li>
-            </ul>
-          </li>
-
-          <li class="nav-item">
-            <a href="pages/ihr-weg-zu-uns.html" class="nav-link">Anfahrt</a>
-          </li>
-          <li class="nav-item nav-item--has-dropdown nav-item--hours">
-            <button class="nav-link nav-link--btn" aria-expanded="false" aria-haspopup="true">Öffnungszeiten</button>
-            <ul class="nav-dropdown nav-dropdown--hours">
-              <li class="nav-hours-panel">
-                <div class="nav-hours">
-                  <div class="nav-hours__title">🕐 Öffnungszeiten</div>
-                  <div class="nav-hours__row">
-                    <span class="nav-hours__day">Mo &amp; Di</span>
-                    <span class="nav-hours__closed">Ruhetag</span>
-                  </div>
-                  <div class="nav-hours__row">
-                    <span class="nav-hours__day">Mi &amp; Do</span>
-                    <span class="nav-hours__time">14:00 – 21:00 Uhr</span>
-                  </div>
-                  <div class="nav-hours__row">
-                    <span class="nav-hours__day">Freitag</span>
-                    <span class="nav-hours__time">12:00 – 21:00 Uhr</span>
-                  </div>
-                  <div class="nav-hours__row">
-                    <span class="nav-hours__day">Sa &amp; So</span>
-                    <span class="nav-hours__time">10:00 – open end ☀️</span>
-                  </div>
-                  <div class="nav-hours__row nav-hours__row--season">
-                    <span class="nav-hours__day">Hinweis</span>
-                    <span class="nav-hours__closed">Nur bei gutem Wetter geöffnet</span>
-                  </div>
-                  <div class="nav-hours__row" style="margin-top:0.5rem; padding-top:0.5rem; border-top:1px solid rgba(255,255,255,0.15);">
-                    <a href="pages/ihr-weg-zu-uns.html" style="color:var(--color-gold); font-size:0.8rem; text-decoration:none;">→ Zur Anfahrtsseite</a>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </li>
-
-          <li class="nav-item">
-            <a href="pages/impressum.html" class="nav-link">Impressum</a>
-          </li>
-
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <!-- ========== MAIN CONTENT ========== -->
-  <main id="main-content" role="main">
-
-  <!-- ========== HERO ========== -->
-  <section class="hero" aria-label="Willkommen bei Wuttke in der Heide">
-    <div class="hero__bg" role="img" aria-label="Blick auf die Freizeitanlage Wuttke in der Heide"></div>
-    <div class="hero__overlay"></div>
-    <div class="hero__content">
-      <span class="hero__badge">Seit über 50 Jahren</span>
-      <h1 class="hero__title">Wuttke in der Heide</h1>
-      <p class="hero__subtitle">Das Ausflugslokal in Ihrer Nähe</p>
-      <p class="hero__description">
+<!-- Skip-Link für Tastaturnutzer (WCAG 2.4.1) -->
+<a class="skip-link" href="#main-content">Zum Hauptinhalt springen</a>
+<!-- ========== HEADER ========== -->
+<header class="site-header" role="banner">
+<div class="header-inner">
+<a aria-label="Wuttke in der Heide – Startseite" class="site-logo" href="index.html">
+<img alt="Wuttke in der Heide Logo" class="site-logo__img" height="56" src="assets/images/wuttke-logo.png" width="56"/>
+</a>
+<nav aria-label="Hauptnavigation" class="site-nav" role="navigation">
+<button aria-expanded="false" aria-label="Menü öffnen" class="nav-toggle">
+<span></span><span></span><span></span>
+</button>
+<ul class="nav-list" role="list">
+<li class="nav-item">
+<a class="nav-link active" href="index.html">Start</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="pages/neuigkeiten.html">Neuigkeiten</a>
+</li>
+<li class="nav-item nav-item--has-dropdown">
+<a class="nav-link" href="pages/biergarten.html">Gastronomie</a>
+<ul class="nav-dropdown">
+<li><a href="pages/biergarten.html">🍺 Biergarten</a></li>
+<li><a href="pages/speisen.html">🍽️ Speisekarte</a></li>
+<li><a href="pages/firmenveranstaltung.html">🏢 Firmenveranstaltung</a></li>
+</ul>
+</li>
+<li class="nav-item nav-item--has-dropdown">
+<a class="nav-link" href="pages/grillplaetze.html">Freizeit</a>
+<ul class="nav-dropdown">
+<li><a href="pages/grillplaetze.html">🔥 Grillplätze</a></li>
+<li><a href="pages/minigolf.html">⛳ Minigolf</a></li>
+<li><a href="pages/pit-pat.html">🎯 Pit Pat</a></li>
+<li><a href="pages/planwagen-fahrten.html">🐎 Planwagenfahrten</a></li>
+<li><a href="pages/feuerstelle.html">🪵 Feuerschale</a></li>
+<li><a href="pages/spielplatz-initiative.html">🛝 Spielplatz</a></li>
+<li><a href="pages/tandem.html" style="color:var(--color-gold);font-weight:700;">🚲 Tandem-Tretfahrzeug ✨</a></li>
+</ul>
+</li>
+<li class="nav-item nav-item--has-dropdown">
+<a class="nav-link" href="pages/ueber-uns.html">Über uns</a>
+<ul class="nav-dropdown">
+<li><a href="pages/ueber-uns.html">🌿 Unsere Geschichte</a></li>
+<li><a href="pages/presse.html">📰 Presse-Chronik</a></li>
+<li><a href="pages/sonstiges.html">📋 Sonstiges</a></li>
+</ul>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="pages/ihr-weg-zu-uns.html">Anfahrt</a>
+</li>
+<li class="nav-item nav-item--has-dropdown nav-item--hours">
+<button aria-expanded="false" aria-haspopup="true" class="nav-link nav-link--btn">Öffnungszeiten</button>
+<ul class="nav-dropdown nav-dropdown--hours">
+<li class="nav-hours-panel">
+<div class="nav-hours">
+<div class="nav-hours__title">🕐 Öffnungszeiten</div>
+<div class="nav-hours__row">
+<span class="nav-hours__day">Mo &amp; Di</span>
+<span class="nav-hours__closed">Ruhetag</span>
+</div>
+<div class="nav-hours__row">
+<span class="nav-hours__day">Mi &amp; Do</span>
+<span class="nav-hours__time">14:00 – 21:00 Uhr</span>
+</div>
+<div class="nav-hours__row">
+<span class="nav-hours__day">Freitag</span>
+<span class="nav-hours__time">12:00 – 21:00 Uhr</span>
+</div>
+<div class="nav-hours__row">
+<span class="nav-hours__day">Sa &amp; So</span>
+<span class="nav-hours__time">10:00 – open end ☀️</span>
+</div>
+<div class="nav-hours__row nav-hours__row--season">
+<span class="nav-hours__day">Hinweis</span>
+<span class="nav-hours__closed">Nur bei gutem Wetter geöffnet</span>
+</div>
+<div class="nav-hours__row" style="margin-top:0.5rem; padding-top:0.5rem; border-top:1px solid rgba(255,255,255,0.15);">
+<a href="pages/ihr-weg-zu-uns.html" style="color:var(--color-gold); font-size:0.8rem; text-decoration:none;">→ Zur Anfahrtsseite</a>
+</div>
+</div>
+</li>
+</ul>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="pages/impressum.html">Impressum</a>
+</li>
+</ul>
+</nav>
+</div>
+</header>
+<!-- ========== MAIN CONTENT ========== -->
+<main id="main-content" role="main">
+<!-- ========== HERO ========== -->
+<section aria-label="Willkommen bei Wuttke in der Heide" class="hero">
+<div aria-label="Blick auf die Freizeitanlage Wuttke in der Heide" class="hero__bg" role="img"></div>
+<div class="hero__overlay"></div>
+<div class="hero__content">
+<span class="hero__badge">Seit über 50 Jahren</span>
+<h1 class="hero__title">Wuttke in der Heide</h1>
+<p class="hero__subtitle">Das Ausflugslokal in Ihrer Nähe</p>
+<p class="hero__description">
         Herzlich willkommen auf unserer Freizeitanlage in Marl. Wir sind der Treff für Naturliebhaber,
         Familien und alle, die das einfache Leben lieben – mit Biergarten, Minigolf, Grillplätzen und mehr.
       </p>
-      <div class="hero__cta">
-        <a href="pages/biergarten.html" class="btn btn--primary">Unser Biergarten</a>
-        <a href="pages/ihr-weg-zu-uns.html" class="btn btn--secondary">Anfahrt & Öffnungszeiten</a>
-      </div>
-    </div>
-    <div class="hero__scroll" aria-hidden="true">
-      <span>Entdecken</span>
-      <div class="hero__scroll-arrow"></div>
-    </div>
-  </section>
-
-  <!-- ========== INFO BANNER ========== -->
-  <div class="info-banner" role="complementary" aria-label="Öffnungszeiten und Kontakt">
-    <div class="info-banner__inner">
-      <div class="info-item">
-        <span class="info-item__icon" aria-hidden="true">☀️</span>
-        <span><strong>Nur bei gutem Wetter geöffnet!</strong></span>
-      </div>
-      <div class="info-item">
-        <span class="info-item__icon" aria-hidden="true">📅</span>
-        <span><strong>Ruhetag:</strong> Montag &amp; Dienstag</span>
-      </div>
-      <div class="info-item">
-        <span class="info-item__icon" aria-hidden="true">🕐</span>
-        <span>Mi/Do: 14–21 · Fr: 12–21 · Sa/So: 10–open end</span>
-      </div>
-      <div class="info-item">
-        <span class="info-item__icon" aria-hidden="true">📞</span>
-        <span><strong>Tel.:</strong> <a href="tel:+49236513953">02365 – 13953</a></span>
-      </div>
-    </div>
-  </div>
-
-  <div class="wood-divider" aria-hidden="true"></div>
-
-  <!-- ========== WILLKOMMEN SECTION ========== -->
-  <section class="section" aria-labelledby="welcome-heading">
-    <div class="container">
-      <div class="two-col">
-        <div class="fade-in-left">
-          <div class="section-heading" style="text-align:left;">
-            <span class="section-heading__label">Herzlich Willkommen</span>
-            <h2 id="welcome-heading" class="section-heading__title">Hallo Freunde!</h2>
-            <div class="section-heading__line" style="margin-left:0;"></div>
-          </div>
-          <p class="text--lead">
+<div class="hero__cta">
+<a class="btn btn--primary" href="pages/biergarten.html">Unser Biergarten</a>
+<a class="btn btn--secondary" href="pages/ihr-weg-zu-uns.html">Anfahrt &amp; Öffnungszeiten</a>
+</div>
+</div>
+<div aria-hidden="true" class="hero__scroll">
+<span>Entdecken</span>
+<div class="hero__scroll-arrow"></div>
+</div>
+</section>
+<!-- ========== INFO BANNER ========== -->
+<div aria-label="Öffnungszeiten und Kontakt" class="info-banner" role="complementary">
+<div class="info-banner__inner">
+<div class="info-item">
+<span aria-hidden="true" class="info-item__icon">☀️</span>
+<span><strong>Nur bei gutem Wetter geöffnet!</strong></span>
+</div>
+<div class="info-item">
+<span aria-hidden="true" class="info-item__icon">📅</span>
+<span><strong>Ruhetag:</strong> Montag &amp; Dienstag</span>
+</div>
+<div class="info-item">
+<span aria-hidden="true" class="info-item__icon">🕐</span>
+<span>Mi/Do: 14–21 · Fr: 12–21 · Sa/So: 10–open end</span>
+</div>
+<div class="info-item">
+<span aria-hidden="true" class="info-item__icon">📞</span>
+<span><strong>Tel.:</strong> <a href="tel:+49236513953">02365 – 13953</a></span>
+</div>
+</div>
+</div>
+<div aria-hidden="true" class="wood-divider"></div>
+<!-- ========== WILLKOMMEN SECTION ========== -->
+<section aria-labelledby="welcome-heading" class="section">
+<div class="container">
+<div class="two-col">
+<div class="fade-in-left">
+<div class="section-heading" style="text-align:left;">
+<span class="section-heading__label">Herzlich Willkommen</span>
+<h2 class="section-heading__title" id="welcome-heading">Hallo Freunde!</h2>
+<div class="section-heading__line" style="margin-left:0;"></div>
+</div>
+<p class="text--lead">
             Herzlich willkommen auf unseren Internetseiten. Wir sind bemüht, allen Altersgruppen
             gerecht zu werden und die Seiten so informativ wie möglich zu gestalten.
           </p>
-          <p style="margin-top:1rem; color: var(--color-text-light); line-height:1.8;">
+<p style="margin-top:1rem; color: var(--color-text-light); line-height:1.8;">
             Wir lieben und leben das einfache Leben. Wer sich bei uns wohlfühlt, ist herzlich willkommen.
             Seit über 50 Jahren ist „Wuttke" der Treff für alle Naturliebhaber, Hundehalter, Familien und
             alle, die einfach mal raus aus den Strukturen und Mensch sein wollen.
           </p>
-          <p style="margin-top:1rem; font-style:italic; color: var(--color-earth); font-family: var(--font-display);">
+<p style="margin-top:1rem; font-style:italic; color: var(--color-earth); font-family: var(--font-display);">
             Eva-Maria und Marcell Rost
           </p>
-          <div style="margin-top:1.5rem;">
-            <a href="pages/ueber-uns.html" class="btn btn--primary">Unsere Geschichte</a>
-          </div>
-        </div>
-        <div class="two-col__image fade-in-right">
-          <img src="assets/images/biergarten_01.jpg" alt="Gemütliche Atmosphäre bei Wuttke in der Heide" loading="lazy">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <div class="wood-divider" aria-hidden="true"></div>
-
-  <!-- ========== ANGEBOTE SECTION ========== -->
-  <section class="section section--alt" aria-labelledby="offers-heading">
-    <div class="container">
-      <div class="section-heading fade-in">
-        <span class="section-heading__label">Was wir bieten</span>
-        <h2 id="offers-heading" class="section-heading__title">Unsere Freizeitanlage</h2>
-        <div class="section-heading__line"></div>
-        <p class="section-heading__text">
+<div style="margin-top:1.5rem;">
+<a class="btn btn--primary" href="pages/ueber-uns.html">Unsere Geschichte</a>
+</div>
+</div>
+<div class="two-col__image fade-in-right">
+<img alt="Gemütliche Atmosphäre bei Wuttke in der Heide" loading="lazy" src="assets/images/biergarten_01.jpg"/>
+</div>
+</div>
+</div>
+</section>
+<div aria-hidden="true" class="wood-divider"></div>
+<!-- ========== ANGEBOTE SECTION ========== -->
+<section aria-labelledby="offers-heading" class="section section--alt">
+<div class="container">
+<div class="section-heading fade-in">
+<span class="section-heading__label">Was wir bieten</span>
+<h2 class="section-heading__title" id="offers-heading">Unsere Freizeitanlage</h2>
+<div class="section-heading__line"></div>
+<p class="section-heading__text">
           Von Minigolf über Grillplätze bis hin zu Planwagenfahrten – bei uns ist für jeden etwas dabei.
         </p>
-      </div>
+</div>
+<div class="card-grid">
+<article class="card fade-in">
+<img alt="Biergarten Wuttke" class="card__image" loading="lazy" src="assets/images/biergarten_02.jpg"/>
+<div class="card__body">
+<h3 class="card__title">🍺 Biergarten</h3>
+<p class="card__text">Unser neu gestalteter Biergarten lädt zu gemütlichen Stunden ein. Mit Speisen wie Schnitzel, Currywurst und Pommes.</p>
+<a class="card__link" href="pages/biergarten.html">Mehr erfahren</a>
+</div>
+</article>
+<article class="card fade-in">
+<img alt="Minigolf Anlage" class="card__image" loading="lazy" src="assets/images/minigolf_00.jpg"/>
+<div class="card__body">
+<h3 class="card__title">⛳ Minigolf</h3>
+<p class="card__text">Unsere Minigolfbahn macht Spaß für die ganze Familie. Erwachsene 4,00 € – Kinder bis 13 J. 3,00 € pro Runde.</p>
+<a class="card__link" href="pages/minigolf.html">Mehr erfahren</a>
+</div>
+</article>
+<article class="card fade-in">
+<img alt="Grillplätze" class="card__image" loading="lazy" src="assets/images/biergarten_04.jpg"/>
+<div class="card__body">
+<h3 class="card__title">🔥 Grillplätze</h3>
+<p class="card__text">4 überdachte Grillplätze für Betriebsfeiern, Schulklassen oder private Anlässe. Ab 20,00 € Grillmiete.</p>
+<a class="card__link" href="pages/grillplaetze.html">Mehr erfahren</a>
+</div>
+</article>
+<article class="card fade-in">
+<img alt="Planwagenfahrten" class="card__image" loading="lazy" src="assets/images/planwagen-fahrten_00.jpg"/>
+<div class="card__body">
+<h3 class="card__title">🐎 Planwagenfahrten</h3>
+<p class="card__text">3 Stunden Planwagenfahrt + 3 Stunden Grillparty inklusive Getränke und Grillgut. Ab 45 € pro Person.</p>
+<a class="card__link" href="pages/planwagen-fahrten.html">Mehr erfahren</a>
+</div>
+</article>
 
-      <div class="card-grid">
-        <article class="card fade-in">
-          <img src="assets/images/biergarten_02.jpg" alt="Biergarten Wuttke" class="card__image" loading="lazy">
-          <div class="card__body">
-            <h3 class="card__title">🍺 Biergarten</h3>
-            <p class="card__text">Unser neu gestalteter Biergarten lädt zu gemütlichen Stunden ein. Mit Speisen wie Schnitzel, Currywurst und Pommes.</p>
-            <a href="pages/biergarten.html" class="card__link">Mehr erfahren</a>
-          </div>
-        </article>
-
-        <article class="card fade-in">
-          <img src="assets/images/minigolf_00.jpg" alt="Minigolf Anlage" class="card__image" loading="lazy">
-          <div class="card__body">
-            <h3 class="card__title">⛳ Minigolf</h3>
-            <p class="card__text">Unsere Minigolfbahn macht Spaß für die ganze Familie. Erwachsene 4,00 € – Kinder bis 13 J. 3,00 € pro Runde.</p>
-            <a href="pages/minigolf.html" class="card__link">Mehr erfahren</a>
-          </div>
-        </article>
-
-        <article class="card fade-in">
-          <img src="assets/images/biergarten_04.jpg" alt="Grillplätze" class="card__image" loading="lazy">
-          <div class="card__body">
-            <h3 class="card__title">🔥 Grillplätze</h3>
-            <p class="card__text">4 überdachte Grillplätze für Betriebsfeiern, Schulklassen oder private Anlässe. Ab 20,00 € Grillmiete.</p>
-            <a href="pages/grillplaetze.html" class="card__link">Mehr erfahren</a>
-          </div>
-        </article>
-
-        <article class="card fade-in">
-          <img src="assets/images/planwagen-fahrten_00.jpg" alt="Planwagenfahrten" class="card__image" loading="lazy">
-          <div class="card__body">
-            <h3 class="card__title">🐎 Planwagenfahrten</h3>
-            <p class="card__text">3 Stunden Planwagenfahrt + 3 Stunden Grillparty inklusive Getränke und Grillgut. Ab 45 € pro Person.</p>
-            <a href="pages/planwagen-fahrten.html" class="card__link">Mehr erfahren</a>
-          </div>
-        </article>
-
-        <article class="card fade-in">
-          <img src="assets/images/biergarten_06.jpg" alt="Spielplatz" class="card__image" loading="lazy">
+<article class="card fade-in">
+<img alt="Feuerschale" class="card__image" loading="lazy" src="assets/images/biergarten_08.jpg"/>
+<div class="card__body">
+<h3 class="card__title">🪵 Feuerschale</h3>
+<p class="card__text">Mieten Sie unsere Feuerschale für 10,00 € am Tag. Stockbrot backen, Kartoffeln in die Glut legen – unvergesslich!</p>
+<a class="card__link" href="pages/feuerstelle.html">Mehr erfahren</a>
+</div>
+</article>
+<article class="card fade-in" style="border:2px solid var(--color-gold); position:relative; overflow:visible;">
+<span style="position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--color-rust);color:#fff;font-size:0.75rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:0.25rem 0.9rem;border-radius:2rem;white-space:nowrap;z-index:2;">✨ Jetzt neu!</span>
+<img alt="Tandem-Tretfahrzeug bei Wuttke" class="card__image" loading="lazy" src="assets/images/tandem_02.jpg"/>
+<div class="card__body">
+<h3 class="card__title">🚲 Tandem-Tretfahrzeug</h3>
+<p class="card__text">Neu! Bis zu 14 Personen auf einem Fahrzeug – alle müssen gemeinsam trampeln! Perfekt für Gruppen, Familien und Firmenausflüge.</p>
+<a class="card__link" href="pages/tandem.html" style="color:var(--color-gold);">Mehr erfahren</a>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- ========== HIGHLIGHT: FIRMENVERANSTALTUNG ========== -->
+<section aria-labelledby="firma-heading" class="section section--dark">
+<div class="container">
+<div class="highlight-box fade-in">
+<h2 id="firma-heading">🏢 Firmenveranstaltungen</h2>
+<p>
+          Planen Sie Ihre nächste Firmenveranstaltung bei uns! Full-Service-Pakete für Gruppen
+          inklusive Grillveranstaltung, freier Getränkewahl, Spezialbieren, Wein, Sekt und
+          einer großen Auswahl an Grillspeisen.
+        </p>
+<div style="font-family: var(--font-rustic); font-size: 2.5rem; color: var(--color-gold); margin-bottom: 1rem;">
+          Nur 39 € pro Person
+        </div>
+<p style="font-size:0.9rem; color: var(--color-sand);">6 Stunden Rundum-Sorglos-Veranstaltung</p>
+<div style="margin-top: 1.5rem;">
+<a class="btn btn--gold" href="pages/firmenveranstaltung.html">Details ansehen</a>
+</div>
+</div>
+</div>
+</section>
+<!-- ========== KONTAKT SECTION ========== -->
+<section aria-labelledby="contact-heading" class="section">
+<div class="container">
+<div class="section-heading fade-in">
+<span class="section-heading__label">So finden Sie uns</span>
+<h2 class="section-heading__title" id="contact-heading">Adresse &amp; Öffnungszeiten</h2>
+<div class="section-heading__line"></div>
+</div>
+<div class="contact-grid">
+<div class="fade-in-left">
+<div class="contact-info">
+<h3>Wuttke in der Heide</h3>
+<div class="contact-item">
+<span aria-hidden="true" class="contact-item__icon">📍</span>
+<div>
+<div class="contact-item__label">Adresse</div>
+<div class="contact-item__value">Hervester Str. 204<br/>45768 Marl</div>
+</div>
+</div>
+<div class="contact-item">
+<span aria-hidden="true" class="contact-item__icon">📞</span>
+<div>
+<div class="contact-item__label">Telefon</div>
+<div class="contact-item__value"><a href="tel:+49236513953" style="color:var(--color-forest);">02365 – 13953</a></div>
+</div>
+</div>
+<div class="contact-item">
+<span aria-hidden="true" class="contact-item__icon">🕐</span>
+<div>
+<div class="contact-item__label">Öffnungszeiten</div>
+<div class="contact-item__value">Mi/Do 14–21 · Fr 12–21 · Sa/So 10–open end ☀️</div>
+</div>
+</div>
+</div>
+<div class="hours-box" style="margin-top:1.5rem;">
+<h3>Öffnungszeiten</h3>
+<div class="hours-row">
+<span class="day">Montag</span>
+<span class="closed">Ruhetag</span>
+</div>
+<div class="hours-row">
+<span class="day">Dienstag</span>
+<span class="closed">Ruhetag</span>
+</div>
+<div class="hours-row">
+<span class="day">Mittwoch – Sonntag</span>
+<span class="time">10:00 – 20:00 Uhr</span>
+</div>
+<div class="hours-row">
+<span class="day">Winter (01.11. – 15.03.)</span>
+<span class="closed">Geschlossen</span>
+</div>
+<div class="hours-row">
+<span class="day">Sonderöffnungszeiten</span>
+<span class="time">Bei Veranstaltungen</span>
+</div>
+</div>
+</div>
+<div class="map-container fade-in-right">
+<iframe allowfullscreen="" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=7.0450%2C51.6450%2C7.0750%2C51.6650&amp;layer=mapnik&amp;marker=51.6550%2C7.0600" title="Karte: Wuttke in der Heide, Hervester Str. 204, 45768 Marl">
+</iframe>
+</div>
+</div>
+</div>
+</section>
+<!-- ========== ZITAT ========== -->
+<section aria-label="Unser Motto" class="section section--alt">
+<div class="container--narrow">
+<div class="rustic-quote fade-in">
+<p>
+          Wir lieben und leben das einfache Leben. Eine Institution, welche in Marl Kult ist
+          und für das einfache Leben steht. Einfach mal raus aus den Strukturen und Mensch sein.
+        </p>
+<cite>– Eva-Maria &amp; Marcell Rost, Wuttke in der Heide</cite>
+</div>
+</div>
+</section>
+<!-- ========== FOOTER ========== -->
+</main><!-- /#main-content -->
+<footer class="site-footer" role="contentinfo">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<div class="footer-brand__logo">
+<img alt="Wuttke in der Heide" src="assets/images/wuttke-logo.png" style="height:80px;width:auto;margin-bottom:0.75rem;filter:drop-shadow(0 2px 8px rgba(0,0,0,0.5));"/>
+</div>
+<p class="footer-brand__tagline">Das Ausflugslokal in Ihrer Nähe</p>
+<p class="footer-brand__text">
+            Seit über 50 Jahren der Treff für Naturliebhaber, Familien und alle,
+            die das einfache Leben lieben. Inmitten der Frentroper Mark in Marl.
+          </p>
+</div>
+<div class="footer-col">
+<h4>Angebote</h4>
+<nav aria-label="Angebote" class="footer-nav">
+<a href="pages/biergarten.html">Biergarten</a>
+<a href="pages/minigolf.html">Minigolf</a>
+<a href="pages/grillplaetze.html">Grillplätze</a>
+<a href="pages/planwagen-fahrten.html">Planwagenfahrten</a>
+<a href="pages/tandem.html">🚲 Tandem-Tretfahrzeug</a>
+<a href="pages/feuerstelle.html">Feuerschale</a>
+<a href="pages/pit-pat.html">Pit Pat</a>
+</nav>
+</div>
+<div class="footer-col">
+<h4>Information</h4>
+<nav aria-label="Information" class="footer-nav">
+<a href="pages/ueber-uns.html">Über uns</a>
+<a href="pages/neuigkeiten.html">Neuigkeiten</a>
+<a href="pages/presse.html">Presse</a>
+<a href="pages/spielplatz-initiative.html">Spielplatz-Initiative</a>
+<a href="pages/sonstiges.html">Sonstiges</a>
+<a href="pages/impressum.html">Impressum</a>
+<a href="pages/datenschutz.html">Datenschutz</a>
+</nav>
+</div>
+<div class="footer-col">
+<h4>Kontakt</h4>
+<div class="footer-contact-item">
+<span aria-hidden="true" class="footer-contact-item__icon">📍</span>
+<span>Hervester Str. 204<br/>45768 Marl</span>
+</div>
+<div class="footer-contact-item">
+<span aria-hidden="true" class="footer-contact-item__icon">📞</span>
+<a href="tel:+49236513953">02365 – 13953</a>
+</div>
+<div class="footer-contact-item">
+<span aria-hidden="true" class="footer-contact-item__icon">🕐</span>
+<span>Mi/Do: 14–21 · Fr: 12–21 · Sa/So: 10–open end<br/>Mo+Di: Ruhetag · Nur bei Sonne</span>
+</div>
+</div>
+</div>
+<div class="footer-bottom">
+<span>© 2025 Wuttke in der Heide · Marcell Rost</span>
+<nav aria-label="Rechtliche Links" style="display:flex; gap:1.5rem;">
+<a href="pages/impressum.html">Impressum</a>
+<a href="pages/datenschutz.html">Datenschutz</a>
+</nav>
+</div>
+</div>
+</footer>
+<!-- ========== TANDEM NEU-MODAL ========== -->
+<div aria-describedby="tandem-modal-desc" aria-label="Neuheit: Tandem-Tretfahrzeug" aria-modal="true" class="tandem-modal" id="tandem-modal" role="dialog" style="display:none;">
+<div class="tandem-modal__backdrop" id="tandem-modal-backdrop"></div>
+<div class="tandem-modal__box">
+<button aria-label="Modal schließen" class="tandem-modal__close" id="tandem-modal-close">×</button>
+<div class="tandem-modal__badge">✨ Jetzt neu bei Wuttke!</div>
+<div class="tandem-modal__img-wrap">
+<img alt="Unser neues Tandem-Tretfahrzeug" loading="eager" src="assets/images/tandem_02.jpg"/>
+</div>
+<div class="tandem-modal__body">
+<h2 class="tandem-modal__title">Tandem-Tretfahrzeug</h2>
+<p class="tandem-modal__text" id="tandem-modal-desc">Das neue Highlight auf unserem Gelände! Bis zu <strong>14 Personen</strong> fahren gemeinsam auf unserem Tandem-Tretfahrzeug – und alle müssen mittrampeln! Perfekt für Familien, Firmenausflüge und besondere Anlässe.</p>
+<div class="tandem-modal__actions">
+<a class="btn btn--gold" href="pages/tandem.html" style="font-size:1rem;">🚲 Mehr erfahren</a>
+<button class="tandem-modal__skip" id="tandem-modal-skip">Später ansehen</button>
+</div>
+</div>
+</div>
+</div>
+<!-- ========== LIGHTBOX ========== -->
+<div aria-label="Bildvorschau" aria-modal="true" class="lightbox" role="dialog">
+<button aria-label="Schließen" class="lightbox__close">✕</button>
+<img alt="" class="lightbox__img" src=""/>
+</div>
+<!-- ========== COOKIE BANNER (TTDSG / DSGVO-konform) ========== -->
+<div aria-describedby="cookie-desc" aria-label="Cookie-Einwilligung" aria-modal="true" class="cookie-banner" role="dialog">
+<div class="cookie-banner__inner">
+<div class="cookie-banner__text">
+<strong>Ihre Privatsphäre ist uns wichtig</strong>
+<p id="cookie-desc">
+          Diese Website verwendet ausschließlich technisch notwendige Cookies, die für den Betrieb der Seite erforderlich sind. Es werden keine Tracking- oder Analyse-Cookies eingesetzt. Durch Klick auf „Verstanden“ stimmen Sie der Nutzung dieser Cookies gemäß § 25 TTDSG zu.
+          <a href="pages/datenschutz.html" style="color:var(--color-gold);text-decoration:underline;">Datenschutzerklärung</a> ·
+          <a href="pages/impressum.html" style="color:var(--color-gold);text-decoration:underline;">Impressum</a>
+</p>
+</div>
+<div class="cookie-actions">
+<a class="cookie-details-link" href="pages/datenschutz.html">Mehr erfahren</a>
+<button class="btn btn--secondary cookie-decline">Nur notwendige</button>
+<button class="btn btn--gold cookie-accept">Verstanden</button>
+</div>
+</div>
+</div>
+<!-- ========== BARRIEREFREIHEITS-WIDGET (unten links) ========== -->
+<div aria-hidden="true" aria-label="Barrierefreiheits-Einstellungen" aria-modal="true" class="a11y-panel" id="a11y-panel" role="dialog">
+<div class="a11y-panel__title">
+<span aria-hidden="true">♿</span> Barrierefreiheit
+    </div>
+<div class="a11y-option">
+<span class="a11y-option__label"><span aria-hidden="true">🔠</span> Schriftgröße</span>
+<div class="a11y-stepper">
+<button aria-label="Schrift verkleinern" id="a11y-font-minus">−</button>
+<span class="a11y-stepper__val" id="a11y-font-val">100%</span>
+<button aria-label="Schrift vergrößern" id="a11y-font-plus">+</button>
+</div>
+</div>
+<div class="a11y-option">
+<label class="a11y-option__label" for="a11y-contrast">
+<span aria-hidden="true">🌗</span> Hoher Kontrast
+      </label>
+<label class="a11y-toggle">
+<input id="a11y-contrast" type="checkbox"/>
+<span class="a11y-toggle__track"></span>
+</label>
+</div>
+<div class="a11y-option">
+<label class="a11y-option__label" for="a11y-gray">
+<span aria-hidden="true">⬜</span> Graustufen
+      </label>
+<label class="a11y-toggle">
+<input id="a11y-gray" type="checkbox"/>
+<span class="a11y-toggle__track"></span>
+</label>
+</div>
+<div class="a11y-option">
+<label class="a11y-option__label" for="a11y-links">
+<span aria-hidden="true">🔗</span> Links unterstreichen
+      </label>
+<label class="a11y-toggle">
+<input id="a11y-links" type="checkbox"/>
+<span class="a11y-toggle__track"></span>
+</label>
+</div>
+<button class="a11y-reset" id="a11y-reset">↻ Zurücksetzen</button>
+</div>
+<button aria-controls="a11y-panel" aria-expanded="false" aria-label="Barrierefreiheits-Einstellungen öffnen" class="a11y-btn" id="a11y-btn">
+    ♿
+  </button>
+<!-- ========== KONTAKT-WIDGET (unten rechts) ========== -->
+<div class="contact-widget" id="contact-widget">
+<div aria-label="Kontaktoptionen" class="contact-options" id="contact-options">
+<a aria-label="Anrufen: 02365 – 13953" class="contact-option contact-option--phone" href="tel:+49236513953">
+<span class="contact-option__label">02365 – 13953</span>
+<span aria-hidden="true" class="contact-option__icon">📞</span>
+</a>
+<a aria-label="E-Mail schreiben" class="contact-option contact-option--email" href="mailto:info@wuttke-marl.de">
+<span class="contact-option__label">E-Mail schreiben</span>
+<span aria-hidden="true" class="contact-option__icon">✉</span>
+</a>
+<a aria-label="Auf Google Maps anzeigen" class="contact-option contact-option--maps" href="https://www.google.com/maps/search/Wuttke+in+der+Heide+Marl" rel="noopener noreferrer" target="_blank">
+<span class="contact-option__label">Google Maps</span>
+<span aria-hidden="true" class="contact-option__icon">📍</span>
+</a>
+<a aria-label="Anfahrt &amp; Öffnungszeiten" class="contact-option contact-option--route" href="pages/ihr-weg-zu-uns.html">
+<span class="contact-option__label">Anfahrt &amp; Zeiten</span>
+<span aria-hidden="true" class="contact-option__icon">🗺</span>
+</a>
+</div>
+<button aria-expanded="false" aria-label="Kontaktoptionen öffnen" class="contact-widget__btn" id="contact-widget-btn">
+<span style="font-family:Georgia,serif;font-style:italic;font-weight:700;font-size:1.5rem;line-height:1;letter-spacing:-0.02em;">i</span>
+</button>
+</div>
+<!-- ========== BACK TO TOP ========== -->
+<button aria-label="Zurück nach oben" class="back-to-top">↑</button>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
